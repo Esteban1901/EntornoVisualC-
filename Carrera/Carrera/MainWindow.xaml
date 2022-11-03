@@ -1,0 +1,60 @@
+﻿<Window x:Class="Carrera.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Carrera"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="476.4" Width="800">
+    <Grid Background="Black">
+        <ComboBox x:Name="CmbRecorrido" HorizontalAlignment="Left" Margin="175,138,0,0" VerticalAlignment="Top" Width="144"/>
+        <ComboBox x:Name="CmbCategoría" HorizontalAlignment="Left" Margin="175,190,0,0" VerticalAlignment="Top" Width="144"/>
+        <DatePicker x:Name="DpFecha" HorizontalAlignment="Left" Margin="175,240,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <TextBox x:Name="TxtNombre" HorizontalAlignment="Left" Height="23" Margin="619,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtNombre_TextChanged"/>
+        <TextBox x:Name="TxtEdad" HorizontalAlignment="Left" Height="23" Margin="619,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtCorreo" HorizontalAlignment="Left" Height="23" Margin="619,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Recorrido" HorizontalAlignment="Left" Margin="53,134,0,0" VerticalAlignment="Top" Foreground="White" Height="26"/>
+        <Label Content="Categoría" HorizontalAlignment="Left" Margin="53,186,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Fecha de Inscripción" HorizontalAlignment="Left" Margin="53,240,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="540,135,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Edad" HorizontalAlignment="Left" Margin="540,186,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="540,240,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Image Margin="53,27,683.6,362.2" Source="Group 2.png" Stretch="Fill"/>
+        <Label Content="INSCRIPCIÓN PARA LA MARATÓN" HorizontalAlignment="Left" Margin="150,27,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="36">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FF15EDAB" Offset="0"/>
+                    <GradientStop Color="#FFD249F1" Offset="0.898"/>
+                    <GradientStop Color="#FF1A62CA" Offset="0.495"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Button Content="Ingresar" HorizontalAlignment="Left" Margin="619,353,0,0" VerticalAlignment="Top" Width="120" Height="22" Foreground="White" FontWeight="Bold" BorderBrush="Black" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FFD545F6" Offset="0.901"/>
+                    <GradientStop Color="#FFE022F9"/>
+                    <GradientStop Color="#FF12A0D4" Offset="0.479"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <ListBox x:Name="LstInscripciones" HorizontalAlignment="Left" Height="133" Margin="53,292,0,0" VerticalAlignment="Top" Width="315"/>
+
+    </Grid>
+</Window>

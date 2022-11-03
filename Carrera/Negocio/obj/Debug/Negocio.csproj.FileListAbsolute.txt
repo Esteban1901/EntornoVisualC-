@@ -1,0 +1,9 @@
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\bin\Debug\Negocio.dll
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\bin\Debug\Negocio.pdb
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\obj\Debug\Negocio.dll
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\obj\Debug\Negocio.pdb
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\bin\Debug\Datos.dll
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\bin\Debug\Datos.pdb
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\alumnosinf\source\repos\Carrera\Negocio\obj\Debug\Negocio.csproj.CopyComplete
